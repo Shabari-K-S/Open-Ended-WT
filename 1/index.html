@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>India Map</title>
+    <style>
+        area{
+            cursor: pointer;
+        }
+        .title {
+            text-align: center;
+        }
+    </style>
+</head>
+<body onmousemove="coordinate(event)">
+    <h3 class="title">Select the place to show down the details</h3>
+    <div class="map">
+        <img src="assets/india.jpeg" alt="India Map" usemap="#india-map" style="margin-left:268px">
+        <map name="india-map">
+            <area shape="poly" coords="406,150, 30,30, 20,20, 20,0" alt="Jammu" target="_blank" href="https://www.britannica.com/place/Jammu-and-Kashmir">
+            <area shape="poly" coords="422,192, 0,50, 0,0, 0,0" alt="himachal" target="_blank" href="https://www.britannica.com/place/Himachal-Pradesh">
+            <area shape="poly" coords="440,570, 0,50, 0,0, 0,0" alt="karnataka" target="_blank" href="https://www.britannica.com/place/Himachal-Pradesh">
+        </map>
+    </div>
+</body>
+</html>
