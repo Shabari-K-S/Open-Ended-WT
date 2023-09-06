@@ -143,3 +143,24 @@ select:focus{
     display: flex;
     flex-direction: column;
 }
+
+.submit{
+    width:548px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #673ab7;
+    font-weight: 600;
+}
+.submit p{
+    margin-right: 10px;
+}
+button{
+    background-color: #673ab7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 24px;
+    font-size: 14px;
+
+}

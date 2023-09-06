@@ -32,4 +32,12 @@
         color: #5f6368;
         margin-right: 5px; 
     }
+    .submit{
+        width:90%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #673ab7;
+        font-weight: 600;
+    }
 }
